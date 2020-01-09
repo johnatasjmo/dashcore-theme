@@ -1,0 +1,41 @@
+<!-- ./Main navigation -->
+			<nav class="navbar navbar-expand-md navigation sidebar-left block bg-1">
+				<div class="container py-4">
+					<button class="navbar-toggler" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#main" class="navbar-brand">
+						<!-- <img src="../img/logo-light.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none">
+            <img src="../img/logo.png" alt="Dashcore" class="logo d-none d-md-block"> -->
+						<img src="{{ .Site.BaseURL }}../img/logo.png" alt="Dashcore" class="logo logo-sticky">
+					</a>
+					<div class="collapse navbar-collapse ml-auto">
+						<div class="sidebar-brand">
+							<a href="#main">
+								<img src="{{ .Site.BaseURL }}../img/logo.png" alt="Dashcore Template" class="logo">
+							</a>
+						</div>
+						<ul class="nav navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="{{ .Site.BaseURL }}">Home</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:;">Industries</a>
+								<div class="dropdown-menu p-3">
+									<a class="dropdown-item" href="{{ .Site.BaseURL }}shippers">Shippers<a>
+									<a class="dropdown-item" href="{{ .Site.BaseURL }}3PLs">3PL's</a>
+									<a class="dropdown-item" href="{{ .Site.BaseURL }}carriers">Carriers</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{ .Site.BaseURL }}features">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="{{ .Site.BaseURL }}about">About</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
