@@ -1,32 +1,12 @@
 <!-- ./Footer - Five Columns -->
 <!-- update logo -->
+		<hr>
 			<footer class="site-footer section bg-5 color-1 block bg-1">
 				<div class="container py-4">
 					<div class="row gap-y text-center text-md-left">
 						<div class="col-md-4 mr-auto">
 							<img src="{{ .Site.BaseURL }}/img/logo-light.png" alt="" class="logo">
-							<p>Route planning, vehicle visibility, tracking portal, fleet management, driving behavior, order management.</p>
-						</div>
-						<div class="col-md-2">
-							<nav class="nav flex-column">
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}about">About</a>
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}features">Features</a>
-								<a class="nav-item py-2 color-1" href="#">Blog</a>
-							</nav>
-						</div>
-						<div class="col-md-2">
-							<nav class="nav flex-column">
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}shippers#">Shippers</a>
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}3pls">3PLs</a>
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}carriers">Carriers</a>
-							</nav>
-						</div>
-						<div class="col-md-2">
-							<nav class="nav flex-column">
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}careers">Careers</a>
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}about">About</a>
-								<a class="nav-item py-2 color-1" href="{{ .Site.BaseURL }}roi-calculator">ROI calculator</a>
-							</nav>
+							<p>{{.Site.Data.text.footerBody}}</p>
 						</div>
 						<div class="col-md-2">
 							<h6 class="py-2 small">Follow us</h6>
@@ -44,10 +24,5 @@
 						</div>
 					</div>
 					<hr class="mt-5 bg-2 op-5">
-					<div class="row small align-items-center">
-						<div class="col-md-4">
-							<p class="mt-2 mb-0">Fitter. All Rights Reserved</p>
-						</div>
-					</div>
 				</div>
 			</footer>

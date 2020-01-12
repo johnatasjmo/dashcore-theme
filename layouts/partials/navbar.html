@@ -1,30 +1,8 @@
-<!-- ./Main navigation -->
-			<nav class="navbar navbar-expand-md navigation sidebar-left block bg-1">
-				<div class="container py-4">
-					<button class="navbar-toggler" type="button">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="#main" class="navbar-brand">
-						<!-- <img src="../img/logo-light.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none">
-            <img src="../img/logo.png" alt="Dashcore" class="logo d-none d-md-block"> -->
-						<img src="{{ .Site.BaseURL }}../img/logo.png" alt="Dashcore" class="logo logo-sticky">
-					</a>
-					<div class="collapse navbar-collapse ml-auto">
-						<div class="sidebar-brand">
-							<a href="#main">
-								<img src="{{ .Site.BaseURL }}../img/logo.png" alt="Dashcore Template" class="logo">
-							</a>
-						</div>
-						<ul class="nav navbar-nav mr-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="{{ .Site.BaseURL }}">Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="{{ .Site.BaseURL }}about">About</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+ <!-- Making stripe menu -->
+    <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+        <div class="container">
+            <ul class="st-nav-menu nav navbar-nav">
+                <li class="st-nav-section nav-item"><a href="#main" class="navbar-brand"><img src="img/logo.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none"> <img src="img/logo-light.png" alt="Dashcore" class="logo d-none d-md-block"></a></li>
+            </ul>
+        </div>
+    </nav>

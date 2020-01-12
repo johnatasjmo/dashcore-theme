@@ -1,34 +1,26 @@
-<!-- ./Page header -->
-<header class="header section overlay gradient gradient-43 alpha-8 color-1 image-background cover" style="background-image: url(img/fitter/background/background-1.jpg)">
-    <div class="divider-shape">
-        <!-- waves divider -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" class="shape-waves" style="left: 0; transform: rotate3d(0,1,0,180deg);">
-            <path class="shape-fill shape-fill-1" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z" />
-        </svg>
-    </div>
-    <div class="container-fluid">
-        <div class="row gap-y align-items-center">
-            <div class="col-lg-5 mx-auto text-center text-lg-left">
-                <h1 class="light display-4 color-1">
-                    <span class="bold d-block">{{ with .Site.Content.text1 }}</span>
-                    <span class="bold d-block">REAL TIME VISIBILITY</span>
-                </h1>
-                <p class="color-1 lead alpha-8 my-5">Use your fleet at maximum and increase your customer experience</p>
-                <a href="#" class="btn btn-1 btn-lg btn-rounded bold px-5">BOOK A DEMO</a>
+         <!-- ./App Landing - page header -->
+        <header class="section header text-contrast app-landing-header">
+            <div class="shape-wrapper">
+                <div class="shape shape-background shape-main bg-dark"></div>
+                <div class="shape shape-background shape-top bg-success"></div>
             </div>
-            <div class="col-lg-6 col-md-9 mx-md-auto mx-lg-0 pr-lg-0">
-                <div class="device-twin align-items-center mt-4 mt-lg-0">
-                    <div class="browser shadow" data-aos="fade-left">
-                        <img src="{{ .Site.BaseURL }}img/screens/dash/4.png" alt="...">
+            <div class="container overflow-hidden">
+                <div class="row gap-y align-items-center">
+                    <div class="col-md-6 col-lg-6">
+                        <p class="lead d-flex align-items-center my-0"><i class="fas fa-calculator font-md mr-3"></i> {{.Site.Data.text.appPreHeading}} </p>
+                        <h1 class="bold text-contrast display-lg-2 font-lg mb-5"> {{.Site.Data.text.appHeading}} <span class="d-block light font-md"> {{.Site.Data.text.appSubHeading}} </span></h1>
+                        <p class="lead"> {{.Site.Data.text.appBody}} </p>
+                        <div class="nav mt-5 align-items-center"><a href="#" class="btn btn-rounded btn-lg btn-info shadow mr-3 px-4 text-capitalize"> {{.Site.Data.text.appButton}} </a></div>
                     </div>
-                    <div class="front iphone-x absolute d-none d-lg-block" data-aos="fade-right" style="left: -5.5rem; bottom: -3.5rem;">
-                        <div class="screen">
-                            <img src="{{ .Site.BaseURL }}img/screens/app/1.png" alt="...">
+                    <div class="col-md-6 col-lg-5 ml-lg-auto">
+                        <div data-aos="fade-left">
+                            <div class="mobile-device iphone-x">
+                                <div class="screen"><img src="img/screens/app/{{.Site.Data.text.appImage1}}.png" class="img-responsive" alt=""></div>
+                                <div class="notch"></div>
+                            </div>
+                            <div class="absolute screen-highlight center-x w-100"><img src="img/screens/app/{{.Site.Data.text.appImage2}}.png" alt="" class="mx-auto shadow-lg rounded img-responsive" data-aos-delay="1000" data-aos="zoom-in"></div>
                         </div>
-                        <div class="notch"></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</header>
+        </header>

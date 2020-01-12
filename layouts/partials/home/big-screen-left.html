@@ -3,15 +3,15 @@
 			<div class="container-wide bring-to-front">
 				<div class="row gap-y align-items-center text-center text-lg-left">
 					<div class="col-10 col-lg-4 mx-auto order-md-2">
-						<h2>Smart Routing</h2>
-						<p class="lead color-2">Are you still creating routes manually?
+						<h2>{{.Site.Data.text.screenLeftTitle}}</h2>
+						<p class="lead color-2">{{.Site.Data.text.screenLeftSubtitle}}
 						</p>
-						<p>Create your routes in minutes, not hours. Create the most optimal routes based on vehicle capacity, mileage driven, delivery hours and other custom variables. Maximize your fleet capacity and reduce last mile delivery cost up to 15%.
+						<p>{{.Site.Data.text.screenLeftBody}}
 						</p>
-						<a href="/solutions" class="btn btn-info btn-rounded mt-4">Learn More</a>
+						<a href="/solutions" class="btn btn-info btn-rounded mt-4">{{.Site.Data.text.screenLeftButton}}</a>
 					</div>
 					<div class="col-12 col-lg-6 pl-0 order-md-1">
-						<img src="{{ .Site.BaseURL }}img/screens/dash/1.png" alt="" class="img-responsive shadow" data-aos="fade-right">
+						<img src="{{ .Site.BaseURL }}img/screens/app/{{.Site.Data.text.screenLeftImage1}}.png" alt="" class="img-responsive shadow" data-aos="fade-right">
 					</div>
 				</div>
 			</div>
