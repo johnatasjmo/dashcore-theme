@@ -1,0 +1,61 @@
+# app landing
+appPreHeading: The Compost Recipe Calculator
+appHeading1: heading line1
+appHeading2: heading line2
+appSubHeading: your feedstocks, your recipe
+appBody: For iPhone, Android, and Desktop
+appHeadingButton: Shop now
+appImage1: humus-calculator-results
+appImage2: humus-results-card
+
+# features
+featuresHeader: Features
+featuresSubHeader: #blank
+#features 1 logo: UNLOCK
+featuresTitle1: Convenient
+featuresBody1: Just connect to the internet on your phone or computer, and start using immediately! All that’s necessary to add and save data is creating a simple account.
+#features 2 logo: FINGERPRINT
+featuresTitle2: Custom 
+featuresBody2: Use your own feedstocks to develop a realistic recipe, save your data and results to access them later. You can also use our crowd-sourced database!
+#features 3 logo: SMILE-BEAM
+featuresTitle3: Free
+featuresBody3: 10 feedstocks and 10 recipes free of charge.
+
+# benefits
+benefitsHeader:
+benefitsSubHeader:
+benefitsTitle1:
+benefitsBody1:
+benefitsTitle2:
+benefitsBody2: 
+benefitsTitle3:
+benefitsBody3:
+benefitsTitle4:
+benefitsBody4:
+benefitsImage1:
+benefitsImage2:
+
+
+# path to success
+pathHeader: Step Up Your Game
+pathSubHeader: To improve your composting operation, follow these tips \:\
+pathTitle1: Analyze
+pathBody1: For more accurate results, send your feedstocks to a STA Compost-certified laboratory and use your own results to develop your recipe.
+pathTitle2: Calculate
+pathBody2: Using your own feedstocks or those from the database, create your own custom recipe and see what proportions you will need to start.
+pathTitle3: Test
+pathBody3: Make a test batch, note any changes to the recipe, monitor the progress of your pile, and adjust your recipe as needed.
+pathImage1: humus-calculator-add-feedstock
+pathImage2: humus-calculator-results
+
+# big-screen-left
+screenLeftTitle: abc
+screenLeftSubTitle: abc
+screenLeftBody: abc
+screenLeftButton: Get Humus
+screenLeftImage1: humus-desktop-feedstock-type
+
+# app-screenshots
+screenshotsTitleApp: Preview of Screenshots
+screenshotsSubTitleApp: Phone views and desktop view.
+# footer
